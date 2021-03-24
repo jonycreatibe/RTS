@@ -1,4 +1,4 @@
-﻿Log file open, 03/24/21 10:12:54
+﻿Log file open, 03/24/21 10:27:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: UE4_CityBuilder
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.830705
+LogStats: Stats thread started at 0.077752
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,631 +163,504 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.03.24-09.12.55:054][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.03.24-09.12.55:054][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
-[2021.03.24-09.12.55:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.03.24-09.12.55:055][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
-[2021.03.24-09.12.55:055][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
-[2021.03.24-09.12.55:063][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.03.24-09.12.55:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.03.24-09.12.55:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.03.24-09.12.55:065][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.24-09.12.55:065][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.03.24-09.12.55:076][  0]LogHAL: Display: Platform has ~ 16 GB [17129717760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.03.24-09.12.55:076][  0]LogInit: Going up to parent DeviceProfile []
-[2021.03.24-09.12.55:076][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.24-09.12.55:076][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.24-09.12.55:077][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.03.24-09.12.55:078][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.03.24-09.12.55:084][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.03.24-09.12.55:084][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.03.24-09.12.55:084][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
-[2021.03.24-09.12.55:085][  0]LogInit: Computer: L1-06
-[2021.03.24-09.12.55:085][  0]LogInit: User: pinyeiroso
-[2021.03.24-09.12.55:085][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.03.24-09.12.55:085][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.03.24-09.12.55:085][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2021.03.24-09.12.55:085][  0]LogMemory: Platform Memory Stats for Windows
-[2021.03.24-09.12.55:085][  0]LogMemory: Process Physical Memory: 107.55 MB used, 107.56 MB peak
-[2021.03.24-09.12.55:085][  0]LogMemory: Process Virtual Memory: 99.60 MB used, 99.60 MB peak
-[2021.03.24-09.12.55:085][  0]LogMemory: Physical Memory: 3760.36 MB used,  12575.81 MB free, 16336.17 MB total
-[2021.03.24-09.12.55:085][  0]LogMemory: Virtual Memory: 5123.57 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2021.03.24-09.12.55:093][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.03.24-09.12.55:440][  0]LogInit: Using OS detected language (es-ES).
-[2021.03.24-09.12.55:440][  0]LogInit: Using OS detected locale (es-ES).
-[2021.03.24-09.12.55:442][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2021.03.24-09.12.55:595][  0]LogInit: Setting process to per monitor DPI aware
-[2021.03.24-09.12.55:696][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.03.24-09.12.55:696][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.03.24-09.12.59:209][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.03.24-09.12.59:209][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.03.24-09.12.59:209][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.03.24-09.12.59:209][  0]LogD3D11RHI: D3D11 adapters:
-[2021.03.24-09.12.59:349][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2021.03.24-09.12.59:349][  0]LogD3D11RHI:       6052/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.03.24-09.12.59:359][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.03.24-09.12.59:359][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.03.24-09.12.59:359][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.03.24-09.12.59:365][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.03.24-09.12.59:366][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2021.03.24-09.12.59:366][  0]LogWindows: EnumDisplayDevices:
-[2021.03.24-09.12.59:366][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2021.03.24-09.12.59:366][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2021.03.24-09.12.59:366][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2021.03.24-09.12.59:367][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2021.03.24-09.12.59:367][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.03.24-09.12.59:367][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2021.03.24-09.12.59:367][  0]LogD3D11RHI:   Driver Version: 461.72 (internal:27.21.14.6172, unified:461.72)
-[2021.03.24-09.12.59:367][  0]LogD3D11RHI:      Driver Date: 2-23-2021
-[2021.03.24-09.12.59:367][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2021.03.24-09.12.59:468][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.03.24-09.12.59:469][  0]LogD3D11RHI: Async texture creation enabled
-[2021.03.24-09.12.59:497][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.03.24-09.12.59:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.03.24-09.13.00:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2021.03.24-09.13.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.03.24-09.13.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2021.03.24-09.13.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2021.03.24-09.13.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.03.24-09.13.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2021.03.24-09.13.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.03.24-09.13.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.03.24-09.13.00:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.03.24-09.13.00:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.03.24-09.13.00:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.03.24-09.13.00:085][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.03.24-09.13.00:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.03.24-09.13.00:109][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.03.24-09.13.00:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.03.24-09.13.00:132][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.03.24-09.13.00:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.03.24-09.13.00:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.03.24-09.13.00:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.03.24-09.13.00:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.03.24-09.13.00:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.03.24-09.13.00:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.03.24-09.13.00:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.03.24-09.13.00:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.03.24-09.13.00:236][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.03.24-09.13.00:291][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.03.24-09.13.00:436][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Intermediate/Shaders/WorkingDirectory/8824/).
-[2021.03.24-09.13.00:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pinyeiroso/AppData/Local/Temp/UnrealShaderWorkingDir/17D4320F4D8037DD6AEF9CBE09A5CC78/'.
-[2021.03.24-09.13.00:439][  0]LogXGEController: Cleaning working directory: C:/Users/pinyeiroso/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.03.24-09.13.00:439][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.03.24-09.13.00:439][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.03.24-09.13.00:439][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.03.24-09.13.03:979][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.03.24-09.13.03:979][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
-[2021.03.24-09.13.03:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.03.24-09.13.03:980][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.03.24-09.13.03:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.24-09.13.03:980][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.03.24-09.13.04:003][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.03.24-09.13.04:003][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.24-09.13.04:003][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.03.24-09.13.04:006][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pinyeiroso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.03.24-09.13.04:006][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.03.24-09.13.04:006][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.03.24-09.13.04:066][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.03.24-09.13.04:076][  0]LogSlate: Using FreeType 2.10.0
-[2021.03.24-09.13.04:098][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.03.24-09.13.04:257][  0]LogAssetRegistry: FAssetRegistry took 0.0065 seconds to start up
-[2021.03.24-09.13.04:715][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.24-09.13.05:209][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.03.24-09.13.05:209][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.03.24-09.13.05:209][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.03.24-09.13.05:209][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.03.24-09.13.05:209][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.03.24-09.13.05:288][  0]LogNetVersion: UE4_CityBuilder 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1695861221)
-[2021.03.24-09.13.08:654][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.048079 seconds
-[2021.03.24-09.13.08:663][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2021.03.24-09.13.08:663][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2021.03.24-09.13.08:663][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.03.24-09.13.09:753][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.03.24-09.13.09:800][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.03.24-09.13.09:925][  0]SourceControl: El control de código fuente está desactivado
-[2021.03.24-09.13.09:925][  0]SourceControl: El control de código fuente está desactivado
-[2021.03.24-09.13.09:937][  0]SourceControl: El control de código fuente está desactivado
-[2021.03.24-09.13.09:943][  0]SourceControl: El control de código fuente está desactivado
-[2021.03.24-09.13.09:950][  0]SourceControl: El control de código fuente está desactivado
-[2021.03.24-09.13.10:196][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.03.24-09.13.10:218][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.24-09.13.10:218][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.24-09.13.10:405][  0]LogOcInput: OculusInput pre-init called
-[2021.03.24-09.13.10:421][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.03.24-09.13.10:421][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.03.24-09.13.10:551][  0]LogEngine: Initializing Engine...
-[2021.03.24-09.13.10:552][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.03.24-09.13.10:555][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
-[2021.03.24-09.13.11:157][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.03.24-09.13.11:198][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.03.24-09.13.11:211][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.03.24-09.13.11:211][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.03.24-09.13.11:211][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2021.03.24-09.13.11:211][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2021.03.24-09.13.11:211][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2021.03.24-09.13.11:211][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.03.24-09.13.11:211][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.03.24-09.13.11:211][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.03.24-09.13.11:212][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.03.24-09.13.11:212][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.03.24-09.13.11:231][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: Name: Realtek Digital Output (Realtek High Definition Audio)
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: Is Default: Yes
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: Channel Order:
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.03.24-09.13.11:232][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.03.24-09.13.11:355][  0]LogAudioMixer: Display: Using Audio Device Realtek Digital Output (Realtek High Definition Audio)
-[2021.03.24-09.13.11:358][  0]LogInit: FAudioDevice initialized.
-[2021.03.24-09.13.11:359][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.03.24-09.13.11:439][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/pinyeiroso/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2021.03.24-09.13.11:447][  0]LogInit: Texture streaming: Enabled
-[2021.03.24-09.13.11:468][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.03.24-09.13.11:468][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.03.24-09.13.11:470][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.03.24-09.13.11:507][  0]LogInit: Transaction tracking system initialized
-[2021.03.24-09.13.11:563][  0]BlueprintLog: New page: Cargar el editor
-[2021.03.24-09.13.11:736][  0]LocalizationService: Localization service is disabled
-[2021.03.24-09.13.12:302][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/' took 0.00s
-[2021.03.24-09.13.12:302][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.03.24-09.13.12:302][  0]LogCook: Display: Mobile HDR setting 1
-[2021.03.24-09.13.13:302][  0]SourceControl: El control de código fuente está desactivado
-[2021.03.24-09.13.13:303][  0]Cmd: MAP LOAD FILE="../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/Maps/TestMap2_P.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.03.24-09.13.13:304][  0]LightingResults: New page: Diseñar la iluminación
-[2021.03.24-09.13.13:310][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.03.24-09.13.13:311][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.03.24-09.13.13:311][  0]MapCheck: New page: Revisión del mapa
-[2021.03.24-09.13.13:312][  0]LightingResults: New page: Diseñar la iluminación
-[2021.03.24-09.13.13:345][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:830][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:831][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:881][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:882][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:883][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:883][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:883][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:883][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.13:883][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
-[2021.03.24-09.13.14:484][  0]LogTexture: Display: Building textures: T_Square (AutoDXT, 512X512)
-[2021.03.24-09.13.14:484][  0]LogTexture: Display: Building textures: T_Circle (AutoDXT, 512X512)
-[2021.03.24-09.13.14:484][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2021.03.24-09.13.14:484][  0]LogStaticMesh: Generando la malla estática SM_Tree_1...
-[2021.03.24-09.13.14:511][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2021.03.24-09.13.14:512][  0]LogStaticMesh: Built static mesh [0.03s] /Game/StudentName/Art/DefaultGeometries/SM_Tree_1.SM_Tree_1
-[2021.03.24-09.13.14:672][  0]LogMaterial: Display: Missing cached shader map for material M_WorldType, compiling. 
-[2021.03.24-09.13.14:754][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128)
-[2021.03.24-09.13.14:754][  0]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
-[2021.03.24-09.13.14:755][  0]LogTexture: Display: Building textures: T_Selection (BGRA8, 1024X1024)
-[2021.03.24-09.13.14:755][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
-[2021.03.24-09.13.14:755][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
-[2021.03.24-09.13.14:755][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
-[2021.03.24-09.13.14:769][  0]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 93
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 92
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 91
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 90
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 89
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 88
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 87
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 86
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 85
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 84
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 83
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 82
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 81
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 80
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 79
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 78
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 77
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 76
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 75
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 74
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 73
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 72
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 71
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 70
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 69
-[2021.03.24-09.13.28:212][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 68
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 67
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 66
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 65
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 64
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 63
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 62
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 61
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 59
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 58
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 57
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 56
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 55
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 54
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 53
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 52
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 51
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 50
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 49
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 48
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 47
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 46
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 45
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 41
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 38
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 37
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 34
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 33
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 27
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
-[2021.03.24-09.13.28:213][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
-[2021.03.24-09.13.28:214][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
-[2021.03.24-09.13.28:214][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
-[2021.03.24-09.13.28:214][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2021.03.24-09.13.28:234][  0]LogMaterial: Display: Missing cached shader map for material M_Cursor_Decal, compiling. 
-[2021.03.24-09.13.28:261][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 34
-[2021.03.24-09.13.28:261][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
-[2021.03.24-09.13.28:261][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
-[2021.03.24-09.13.28:261][  0]LogMaterial: Display: Missing cached shader map for material M_Selection, compiling. 
-[2021.03.24-09.13.28:424][  0]LogAIModule: Creating AISystem for world TestMap2_P
-[2021.03.24-09.13.28:577][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.03.24-09.13.30:851][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 34
-[2021.03.24-09.13.30:859][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
-[2021.03.24-09.13.30:861][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.03.24-09.13.30:862][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,438ms to complete.
-[2021.03.24-09.13.30:862][  0]LogFileHelpers: Loading map 'TestMap2_P' took 17.559
-[2021.03.24-09.13.31:086][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-09.13.31:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-09.13.31:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-09.13.31:111][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-09.13.31:134][  0]LogCollectionManager: Loaded 0 collections in 0.002132 seconds
-[2021.03.24-09.13.31:170][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Collections/' took 0.00s
-[2021.03.24-09.13.31:170][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/Developers/pinyeiroso/Collections/' took 0.00s
-[2021.03.24-09.13.31:170][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/Collections/' took 0.00s
-[2021.03.24-09.13.31:170][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3015 classes and 717 folders.
-[2021.03.24-09.13.31:180][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.03.24-09.13.31:575][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.03.24-09.13.31:588][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2021.03.24-09.13.31:686][  0]LogSlate: Took 0.007232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.03.24-09.13.31:695][  0]LogSlate: Took 0.007244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.03.24-09.13.31:709][  0]LogSlate: Took 0.008069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.03.24-09.13.31:855][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2021.03.24-09.13.32:095][  0]LogSlate: Window 'Tutoriales' being destroyed
-[2021.03.24-09.13.32:113][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.03.24-09.13.32:113][  0]LogLoad: (Engine Initialization) Total time: 50.75 seconds
-[2021.03.24-09.13.32:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.03.24-09.13.32:175][  0]LogAssetRegistry: Asset discovery search completed in 27.9191 seconds
-[2021.03.24-09.13.32:179][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
-[2021.03.24-09.13.32:179][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.03.24-09.13.32:225][  0]LogSlate: Took 0.007640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.03.24-09.13.34:811][222]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
-[2021.03.24-09.13.34:901][230]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
-[2021.03.24-09.13.34:937][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
-[2021.03.24-09.13.36:563][372]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
-[2021.03.24-09.13.36:976][414]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
-[2021.03.24-09.13.37:270][439]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2021.03.24-09.13.42:253][  7]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: URL: C:\Users\pinyeiroso\AppData\Local/Programs/Git/cmd/git.exe version
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: URL: C:\Users\pinyeiroso\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2021.03.24-09.13.42:254][  7]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2021.03.24-09.13.42:255][  7]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
+[2021.03.24-09.27.01:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.24-09.27.01:753][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.24-09.27.01:754][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.24-09.27.01:754][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.24-09.27.01:754][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
+[2021.03.24-09.27.01:754][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
+[2021.03.24-09.27.01:756][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.24-09.27.01:756][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.24-09.27.01:757][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.24-09.27.01:758][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.24-09.27.01:758][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.24-09.27.01:758][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.24-09.27.01:761][  0]LogHAL: Display: Platform has ~ 16 GB [17129717760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.24-09.27.01:761][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.24-09.27.01:761][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.24-09.27.01:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Scalability.ini]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.24-09.27.01:762][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.24-09.27.01:763][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.24-09.27.01:763][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.24-09.27.01:763][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Config/Windows/Engine.ini]
+[2021.03.24-09.27.01:763][  0]LogInit: Computer: L1-06
+[2021.03.24-09.27.01:763][  0]LogInit: User: pinyeiroso
+[2021.03.24-09.27.01:763][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.03.24-09.27.01:763][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.24-09.27.01:763][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.03.24-09.27.01:763][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.24-09.27.01:763][  0]LogMemory: Process Physical Memory: 104.81 MB used, 104.82 MB peak
+[2021.03.24-09.27.01:763][  0]LogMemory: Process Virtual Memory: 99.83 MB used, 99.83 MB peak
+[2021.03.24-09.27.01:763][  0]LogMemory: Physical Memory: 3884.09 MB used,  12452.09 MB free, 16336.17 MB total
+[2021.03.24-09.27.01:763][  0]LogMemory: Virtual Memory: 5123.01 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2021.03.24-09.27.01:766][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.24-09.27.01:809][  0]LogInit: Using OS detected language (es-ES).
+[2021.03.24-09.27.01:810][  0]LogInit: Using OS detected locale (es-ES).
+[2021.03.24-09.27.01:810][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2021.03.24-09.27.01:853][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.24-09.27.01:885][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.24-09.27.01:885][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.24-09.27.02:024][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.24-09.27.02:024][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.24-09.27.02:024][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.24-09.27.02:024][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.24-09.27.02:160][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.03.24-09.27.02:160][  0]LogD3D11RHI:       6052/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.03.24-09.27.02:163][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.24-09.27.02:163][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.24-09.27.02:163][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.24-09.27.02:168][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.24-09.27.02:168][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.24-09.27.02:168][  0]LogWindows: EnumDisplayDevices:
+[2021.03.24-09.27.02:168][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.03.24-09.27.02:168][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.24-09.27.02:169][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.24-09.27.02:169][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.24-09.27.02:169][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.24-09.27.02:169][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.03.24-09.27.02:169][  0]LogD3D11RHI:   Driver Version: 461.72 (internal:27.21.14.6172, unified:461.72)
+[2021.03.24-09.27.02:169][  0]LogD3D11RHI:      Driver Date: 2-23-2021
+[2021.03.24-09.27.02:169][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.03.24-09.27.02:263][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.24-09.27.02:263][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.24-09.27.02:279][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.24-09.27.02:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.24-09.27.02:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.24-09.27.02:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.24-09.27.02:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.24-09.27.02:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.24-09.27.02:669][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.24-09.27.02:677][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.24-09.27.02:684][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.24-09.27.02:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.24-09.27.02:700][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.24-09.27.02:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.24-09.27.02:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.24-09.27.02:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.24-09.27.02:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.24-09.27.02:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.24-09.27.02:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.24-09.27.02:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.24-09.27.02:773][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.24-09.27.02:773][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.24-09.27.02:777][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.24-09.27.02:805][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Intermediate/Shaders/WorkingDirectory/3404/).
+[2021.03.24-09.27.02:805][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pinyeiroso/AppData/Local/Temp/UnrealShaderWorkingDir/7CD143AC4B71E9AD5F1998AA4E140A7C/'.
+[2021.03.24-09.27.02:805][  0]LogXGEController: Cleaning working directory: C:/Users/pinyeiroso/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.24-09.27.02:806][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.24-09.27.02:806][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.24-09.27.02:806][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.24-09.27.03:543][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.24-09.27.03:596][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/pinyeiroso/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.24-09.27.03:596][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/pinyeiroso/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.03.24-09.27.03:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.24-09.27.03:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.24-09.27.03:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.24-09.27.03:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.24-09.27.03:607][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.24-09.27.03:607][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.24-09.27.03:607][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.24-09.27.03:608][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pinyeiroso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.24-09.27.03:608][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.24-09.27.03:608][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.24-09.27.03:637][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.03.24-09.27.03:639][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.24-09.27.03:640][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.24-09.27.03:694][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.03.24-09.27.03:992][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.24-09.27.04:149][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.24-09.27.04:149][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.24-09.27.04:149][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.24-09.27.04:149][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.24-09.27.04:149][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.24-09.27.04:162][  0]LogNetVersion: UE4_CityBuilder 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1695861221)
+[2021.03.24-09.27.05:209][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.042540 seconds
+[2021.03.24-09.27.05:217][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2021.03.24-09.27.05:217][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2021.03.24-09.27.05:217][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.24-09.27.05:614][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.24-09.27.05:617][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.24-09.27.05:669][  0]SourceControl: El control de código fuente está desactivado
+[2021.03.24-09.27.05:669][  0]SourceControl: El control de código fuente está desactivado
+[2021.03.24-09.27.05:669][  0]SourceControl: El control de código fuente está desactivado
+[2021.03.24-09.27.05:671][  0]SourceControl: El control de código fuente está desactivado
+[2021.03.24-09.27.05:671][  0]SourceControl: El control de código fuente está desactivado
+[2021.03.24-09.27.05:752][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.24-09.27.05:762][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.24-09.27.05:762][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.24-09.27.05:850][  0]LogOcInput: OculusInput pre-init called
+[2021.03.24-09.27.05:858][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.24-09.27.05:858][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.24-09.27.05:931][  0]LogEngine: Initializing Engine...
+[2021.03.24-09.27.05:932][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.24-09.27.05:933][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.24-09.27.06:290][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.24-09.27.06:297][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-09.27.06:322][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-09.27.06:322][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-09.27.06:322][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: Name: Realtek Digital Output (Realtek High Definition Audio)
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: Channel Order:
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-09.27.06:337][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-09.27.06:438][  0]LogAudioMixer: Display: Using Audio Device Realtek Digital Output (Realtek High Definition Audio)
+[2021.03.24-09.27.06:443][  0]LogInit: FAudioDevice initialized.
+[2021.03.24-09.27.06:443][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.24-09.27.06:546][  0]LogDerivedDataCache: Saved boot cache 0.10s 79MB C:/Users/pinyeiroso/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.24-09.27.06:552][  0]LogInit: Texture streaming: Enabled
+[2021.03.24-09.27.06:560][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.24-09.27.06:560][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.24-09.27.06:562][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.24-09.27.06:611][  0]LogInit: Transaction tracking system initialized
+[2021.03.24-09.27.06:621][  0]BlueprintLog: New page: Cargar el editor
+[2021.03.24-09.27.06:652][  0]LocalizationService: Localization service is disabled
+[2021.03.24-09.27.06:933][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/' took 0.00s
+[2021.03.24-09.27.06:933][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.24-09.27.06:934][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.24-09.27.07:594][  0]SourceControl: El control de código fuente está desactivado
+[2021.03.24-09.27.07:594][  0]Cmd: MAP LOAD FILE="../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/Maps/TestMap2_P.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.24-09.27.07:594][  0]LightingResults: New page: Diseñar la iluminación
+[2021.03.24-09.27.07:595][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-09.27.07:595][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-09.27.07:595][  0]MapCheck: New page: Revisión del mapa
+[2021.03.24-09.27.07:595][  0]LightingResults: New page: Diseñar la iluminación
+[2021.03.24-09.27.07:621][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:929][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/EQ_FindClosestResource.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:930][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Worker/BT_Worker.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:977][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:977][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:977][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/EQS_FindClosestStorage.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:978][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.07:979][  0]LogLinker: Warning: While loading '../../../../../../Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/StudentName/NPC/Transporter/BT_Transporter.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2021.03.24-09.27.08:736][  0]LogAIModule: Creating AISystem for world TestMap2_P
+[2021.03.24-09.27.08:806][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.24-09.27.08:850][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.03.24-09.27.08:850][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.24-09.27.08:851][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,185ms to complete.
+[2021.03.24-09.27.08:851][  0]LogFileHelpers: Loading map 'TestMap2_P' took 1.256
+[2021.03.24-09.27.08:973][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-09.27.08:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-09.27.08:988][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-09.27.08:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-09.27.09:000][  0]LogCollectionManager: Loaded 0 collections in 0.001830 seconds
+[2021.03.24-09.27.09:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Saved/Collections/' took 0.00s
+[2021.03.24-09.27.09:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/Developers/pinyeiroso/Collections/' took 0.00s
+[2021.03.24-09.27.09:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pinyeiroso/Documents/RTS/RTS/MG2_CityBuilder_Template/Content/Collections/' took 0.00s
+[2021.03.24-09.27.09:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3015 classes and 717 folders.
+[2021.03.24-09.27.09:016][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.24-09.27.09:068][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.24-09.27.09:072][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2021.03.24-09.27.09:121][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.24-09.27.09:122][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.24-09.27.09:127][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.24-09.27.09:210][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.03.24-09.27.09:388][  0]LogSlate: Window 'Tutoriales' being destroyed
+[2021.03.24-09.27.09:398][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.24-09.27.09:398][  0]LogLoad: (Engine Initialization) Total time: 8.99 seconds
+[2021.03.24-09.27.09:398][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.24-09.27.09:448][  0]LogAssetRegistry: Asset discovery search completed in 5.7549 seconds
+[2021.03.24-09.27.09:452][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2021.03.24-09.27.09:452][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.24-09.27.09:492][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.24-09.27.29:085][557]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2021.03.24-09.27.29:085][557]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.03.24-09.27.29:085][557]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2021.03.24-09.27.29:086][557]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.03.24-09.27.36:704][414]LogSlate: Window 'Inicio de sesión del control del código fuente' being destroyed
